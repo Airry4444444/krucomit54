@@ -1,0 +1,129 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+ }
+ body{
+   font-family: Sriracha;
+ }
+ .main{
+  margin: 2%;
+ }
+ nav {
+  background-color: #180560; /* สีพื้นหลังของเมนู */
+  padding: 6px 0; /* ระยะห่างภายในเมนู */
+}
+
+nav ul {
+  list-style: none; /* ลบจุดเริ่มต้นของรายการ */
+  margin: 0; /* ลบระยะขอบรอบรายการ */
+  padding: 0; /* ลบระยะห่างรอบรายการ */
+}
+
+nav li {
+  display: inline-block; /* แสดงรายการแบบเรียงตามแนวนอน */
+  margin-right: 10px; /* ระยะห่างระหว่างรายการ */
+}
+
+nav a {
+  text-decoration: none; /* ลบการขีดเส้นใต้ข้อความ */
+  color: #fbfbfb; /* สีข้อความ */
+  padding: 8px 12px; /* ระยะห่างรอบข้อความ */
+}
+
+nav a:hover {
+  background-color: #a3a2f0; /* สีพื้นหลังเมื่อโฮเวอร์ */
+}
+.v1{
+  padding-top:9%;
+}
+
+  .bg::after {    /*การกำหนดรูปภาพให้แสดงผลหน้าเว็บ*/
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(55%);
+    background-image: url("https://www.it.chula.ac.th/wp-content/uploads/2019/11/%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B9%84%E0%B8%AD%E0%B8%97%E0%B8%B5-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .content {  /*การจัดรูปแบบให้อยู่กึ่งกลาง*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+  }
+  .School {
+    color: #ffffff;
+    padding: 30px;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
+  .card h2 {
+    color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+  .card .box1,
+  .box2,
+  .box3,
+  .box4 {  /*ปรับขนาดของการ์ด*/
+    width: 90%;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .box1 {
+    background-image: url("https://i0.wp.com/www.lifewire.com/thmb/ZjpVL39KmL984pKFgk4f6mZNRIU=/3000x2000/filters:fill(auto,1)/spotty-wifi-5b3fcb92c9e77c00378e8376.gif?ssl=1");
+  }
+  .box2 {
+    background-image: url("https://www.designboom.com/wp-content/uploads/2023/09/android-brand-new-logo-3D-designboom-08.gif");
+  }
+  .box3 {
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/2432383534094802118/C4AE18B93DBB50176BA9FA9BD0319F6B358147D8/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+  }
+  .box4 {
+    background-image: url("https://nightbaker.github.io/images/smoothScroll2.gif");
+  }
+  .School h2 {
+    font-size: 2rem;
+    letter-spacing: 2.8px;
+  }
+  .text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .txt h1 {
+    font-size: 7rem;
+  }
+  .p {
+    opacity: 0.4;
+  }
+  .tnx h2 i {
+    color: #fd7e13;
+  }
+  .card div:hover { /*ลูกเล่นภาพ*/
+    transition: 0.3s;
+    transform: translateY(-10px);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+ 
